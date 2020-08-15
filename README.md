@@ -1,9 +1,15 @@
 Movie Module
 ==============================================================================
 
-This is a module of [ahlev.com](https://ahlev.com).
+This is one of the modules; helps building up the main application [ahlev.com](https://ahlev.com).
 
-The architecture design could be found in [Main App](https://github.com/ohahlev/ember-ahlev-app)
+The architecture design could be found in [main app](https://github.com/ohahlev/ember-ahlev-app)
+
+
+Detail
+------------------------------------------------------------------------------
+
+It takes care of movie management.
 
 
 Compatibility
@@ -21,6 +27,13 @@ Installation
 ember install https://github.com/ohahlev/ember-engine-ahlev-movie
 ```
 
+Mount
+------------------------------------------------------------------------------
+```
+Router.map(function() {
+  this.mount('ember-engine-ahlev-movie', { path: 'ahlev-movie'});
+});
+```
 
 Usage
 ------------------------------------------------------------------------------
