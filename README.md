@@ -3,7 +3,7 @@ Movie Module
 
 This is one of the modules; helps building up the main application [ahlev.com](https://ahlev.com).
 
-The architecture design could be found in [main app](https://github.com/ohahlev/ember-ahlev-app)
+The architecture design could be found in [main app](https://github.com/3alinka/ember-ahlev-app)
 
 
 Detail
